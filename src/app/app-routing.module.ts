@@ -4,6 +4,7 @@ import {NotesComponent} from './notes/notes.component';
 import {DetailsComponent} from './notes/details/details.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/notes', pathMatch: 'full'},
   {path: 'notes', component: NotesComponent},
   {path: 'notes/:id', component: DetailsComponent}
 ];
