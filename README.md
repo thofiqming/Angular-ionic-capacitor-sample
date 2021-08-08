@@ -1,9 +1,11 @@
 # Angular, Ionic and Capacitor Sample Application
 
 # Ionic Commands
-* ionic capacitor build android
+``` 
+ionic capacitor build android 
 
-* ionic capacitor build ios
+ionic capacitor build ios
+``` 
 
 # AngularIonicNotes
 

@@ -1,0 +1,22 @@
+<ion-list>
+
+  <ion-list-header mode="ios">
+    Notes
+  </ion-list-header>
+
+  <div *ngFor="let note of notes">
+    <ion-item-sliding>
+      <ion-item [routerLink]="note.id">
+        {{note.header}}
+      </ion-item>
+      <ion-item-options side="end">
+        <button ion-button color="primary">
+          <ion-icon name="remove-circle"></ion-icon>
+          Delete
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </div>
+
+
+</ion-list>
