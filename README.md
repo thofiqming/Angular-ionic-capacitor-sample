@@ -1,3 +1,10 @@
+# Angular, Ionic and Capacitor Sample Application
+
+# Ionic Commands
+* ionic capacitor build android
+
+* ionic capacitor build ios
+
 # AngularIonicNotes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
