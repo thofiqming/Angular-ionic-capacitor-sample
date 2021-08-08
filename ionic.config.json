@@ -1,0 +1,12 @@
+{
+  "defaultProject": "angular-ionic-notes",
+  "projects": {
+    "angular-ionic-notes": {
+      "name": "angular-ionic-notes",
+      "integrations": {
+        "capacitor": {}
+      },
+      "type": "angular"
+    }
+  }
+}

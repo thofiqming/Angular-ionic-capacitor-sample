@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "angular-ionic-notes",
+	"webDir": "dist/angular-ionic-notes",
+	"bundledWebRuntime": false
+}
