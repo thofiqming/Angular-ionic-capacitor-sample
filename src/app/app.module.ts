@@ -7,14 +7,19 @@ import {IonicModule} from '@ionic/angular';
 import {NotesComponent} from './notes/notes.component';
 import {DetailsComponent} from './notes/details/details.component';
 import {NoteserviceService} from './noteservice.service';
+import {PhotoComponent} from './photo/photo.component';
+import {PhotoService} from './services/photo.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     NotesComponent,
-    DetailsComponent
+    DetailsComponent,
+    PhotoComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     IonicModule.forRoot()
@@ -22,7 +27,7 @@ import {NoteserviceService} from './noteservice.service';
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
-  providers: [NoteserviceService],
+  providers: [NoteserviceService, PhotoService, HttpClientModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {
